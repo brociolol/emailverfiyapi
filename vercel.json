@@ -1,0 +1,10 @@
+{
+   "version": 2,
+   "name": "emailverifyapi",
+   "builds": [
+      { "src": "app.js", "use": "@vercel/node" }
+   ],
+   "routes": [
+      { "src": "/(.*)", "dest": "/server/index.js" }
+   ]
+}
